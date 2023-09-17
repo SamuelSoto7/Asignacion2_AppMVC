@@ -18,6 +18,7 @@ public class Journal {
     public String getTitle() {
         return title;
     }
+  
     public void setTitle(String title) {
         this.title = title;
     }
@@ -25,6 +26,7 @@ public class Journal {
     public String getIsbn() {
         return isbn;
     }
+  
     public void setIsbn(String isbn) {
         this.isbn = isbn;
     }

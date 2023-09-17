@@ -1,5 +1,4 @@
 package com.model;
-
 public class Project {
 
     private String title;
@@ -8,6 +7,12 @@ public class Project {
 
     public Project(){
 
+    }
+
+    public Project(String title, Integer studentsAmount, String status) {
+        this.title = title;
+        this.studentsAmount = studentsAmount;
+        this.status = status;
     }
 
     public String getTitle() {
