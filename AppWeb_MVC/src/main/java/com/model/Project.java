@@ -1,35 +1,37 @@
 package com.model;
 public class Project {
+
     private String title;
-    private int numberOfStudents;
+    private Integer studentsAmount;
     private String status;
 
-    public Project(String title, int numberOfStudents, String status) {
+    public Project(){
+
+    }
+
+    public Project(String title, Integer studentsAmount, String status) {
         this.title = title;
-        this.numberOfStudents = numberOfStudents;
+        this.studentsAmount = studentsAmount;
         this.status = status;
     }
 
     public String getTitle() {
         return title;
     }
-
     public void setTitle(String title) {
         this.title = title;
     }
 
-    public int getNumberOfStudents() {
-        return numberOfStudents;
+    public Integer getStudentsAmount() {
+        return studentsAmount;
     }
-
-    public void setNumberOfStudents(int numberOfStudents) {
-        this.numberOfStudents = numberOfStudents;
+    public void setStudentsAmount(Integer studentsAmount) {
+        this.studentsAmount = studentsAmount;
     }
 
     public String getStatus() {
         return status;
     }
-
     public void setStatus(String status) {
         this.status = status;
     }
